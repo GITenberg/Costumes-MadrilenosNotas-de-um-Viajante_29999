@@ -18,6 +18,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/9922
     wikipedia: http://pt.wikipedia.org/wiki/Sebasti%C3%A3o_de_Magalh%C3%A3es_Lima
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/29999#Costumes-MadrilenosNotas-de-um-Viajante
 gutenberg_issued: '2009-09-15'
 gutenberg_type: Text
 identifiers:

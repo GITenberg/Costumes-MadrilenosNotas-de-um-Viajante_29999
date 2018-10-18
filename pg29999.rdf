@@ -1,193 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/29999">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/29999/29999-8.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7966816310994921871a4617637732cc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:50</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67723</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6295debfbf9a445bbfabfd8111ef5606">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-09-15</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T17:25:40.652659</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104165</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N182a60beb37f4705b18c5e5292c941d1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</pgterms:downloads>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf0b84bba16ac4dbaae6985a7437414d8">
-        <rdf:value>Madrid (Spain) -- Social life and customs</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:title>Costumes Madrilenos
-Notas de um Viajante</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd4664bed1849412bb1b73a0abb3f3576">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129651</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T17:25:38.757558</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N5a25f4e8325744f896deec5942a0c658">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.txt.utf-8">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168026</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168022</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T12:39:34.237527</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T01:46:24.224306</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8c69bea36d6848faba807578c53c4ea7">
+          <rdf:Description rdf:nodeID="N87b8f7476af54656b99fe04a098daa65">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5d1b7c56bb1747f9ba9f5c5814eb9d91">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>DP</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T01:46:24.665287</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T12:39:35.057718</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne2345d95783b4adaac040815ceec65c4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          <rdf:Description rdf:nodeID="N26ef5399503f4ab4813fda1a5263eb08">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89242</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79181</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Costumes Madrilenos
+Notas de um Viajante</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/29999/29999-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165648</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbbc048613d3b4ebc80148239d9f842a8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/29999/29999-h/29999-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183554</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11956</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T01:46:26.338258</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1e42479881e440949b20e88ed0283374">
+          <rdf:Description rdf:nodeID="Nb105573ca120471fb4278f2e2efdbcc2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Nd90ebbfc255f483ebe489cfe8125e6da">
+      <rdf:Description rdf:nodeID="N237e69b0e40e42ba9ad05cf2f85a09df">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
       </rdf:Description>
     </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7dd9df7d26a44b45abed2b9d3f476b97">
+        <rdf:value>Madrid (Spain) -- Social life and customs</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/29999/29999-8.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:36</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165648</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T01:46:24.496295</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd04b6647f0074757ab2692c021955751">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="N20820517bd4d4ab384b749e1c75443d6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79183</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337827</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T01:46:25.453274</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N181396c2d5f440b58a58db90d7728924">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/9922">
-        <pgterms:alias>Lima, Magalhães</pgterms:alias>
-        <pgterms:alias>De Magalhães Lima, S. (Sebastião)</pgterms:alias>
-        <pgterms:alias>Lima, Sebastiao de Magalhaes</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Sebasti%C3%A3o_de_Magalh%C3%A3es_Lima"/>
-        <pgterms:name>Lima, S. de Magalhães (Sebastião de Magalhães)</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
-        <pgterms:alias>Magalhães Lima, S. de (Sebastião)</pgterms:alias>
-        <pgterms:alias>Lima, Sebastião de Magalhães</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</pgterms:deathdate>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/29999/29999-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71365</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9f13a9a0add944bf834764e2c9e46607">
+          <rdf:Description rdf:nodeID="Ne454572e73394b768051d68325b28e4f">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71365</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:50</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfa9e303a0a3d48c5a389c1f6b7fcf5ce">
+          <rdf:Description rdf:nodeID="Ncaafb2c308914a9eb5f01b60674b2448">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:50</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/29999/29999-8.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:50</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8642f15be94546e9ab2ba972bc4cb975">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67723</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7397b64d7286471a9cdbdd471f7533d0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337821</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N64a08f34c3a74b638315c6da11604163">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T01:46:26.242259</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/29999/29999-h/29999-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183554</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na20d81b410244e44a073434f83a2ab02">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-15T05:11:48</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N78c2fec80a014dcb990d43934379e1e0">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Madrid (Spain) -- Description and travel</rdf:value>
+      <rdf:Description rdf:nodeID="Ne65d5d765dd84fcc8b3f38695d8da5a6">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>DP</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/29999.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T12:39:36.185574</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136700</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N921ef502dcdf4482a3631f8a4d948f60">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/29999"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Naa7426695c634a26952933b2d3f95a55">
+        <rdf:value>Madrid (Spain) -- Description and travel</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Na34cfefb3c0c43be885c9a8f9b59ea5c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/9922">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
+        <pgterms:alias>Lima, Magalhães</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Sebasti%C3%A3o_de_Magalh%C3%A3es_Lima"/>
+        <pgterms:name>Lima, S. de Magalhães (Sebastião de Magalhães)</pgterms:name>
+        <pgterms:alias>De Magalhães Lima, S. (Sebastião)</pgterms:alias>
+        <pgterms:alias>Lima, Sebastiao de Magalhaes</pgterms:alias>
+        <pgterms:alias>Lima, Sebastião de Magalhães</pgterms:alias>
+        <pgterms:alias>Magalhães Lima, S. de (Sebastião)</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://pt.wikipedia.org/wiki/Sebasti%C3%A3o_de_Magalh%C3%A3es_Lima">
     <dcterms:description>pt.wikipedia</dcterms:description>
